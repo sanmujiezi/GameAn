@@ -1,0 +1,257 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "ScriptableBuildPipeline",
+    "PackageName": "ArtPackage",
+    "PackageVersion": "2025-07-01-19",
+    "PackageNote": "7/1/2025 12:19:15 AM",
+    "AssetList": [
+        {
+            "Address": "Component_BaseButton",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Component_BaseToggle",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseToggle.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": [
+                1
+            ]
+        },
+        {
+            "Address": "Component_BaseView",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseView.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Menu_UIMainFooter",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooter.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                1,
+                10
+            ]
+        },
+        {
+            "Address": "Menu_UIMainFooterItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                1,
+                10
+            ]
+        },
+        {
+            "Address": "Menu_UITimerMain",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMain.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                10
+            ]
+        },
+        {
+            "Address": "Menu_UITimerMainTypeItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                0,
+                1,
+                5,
+                6,
+                7,
+                10
+            ]
+        },
+        {
+            "Address": "Scenes_Home",
+            "AssetPath": "Assets/Scenes/Home.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependBundleIDs": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        },
+        {
+            "Address": "Scenes_Launcher",
+            "AssetPath": "Assets/Scenes/Launcher.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4,
+            "DependBundleIDs": [
+                10
+            ]
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+            "UnityCRC": 1883443047,
+            "FileHash": "7741df5a49681c632f12caee2dd2e9b5",
+            "FileCRC": "0ed30a23",
+            "FileSize": 9960,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+            "UnityCRC": 2387274426,
+            "FileHash": "a9ab61f8126f71e50d8b8745f772c73b",
+            "FileCRC": "cf6441e6",
+            "FileSize": 17026,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "UnityCRC": 392189320,
+            "FileHash": "43e531e2c0f18d308db76c05aedb8edf",
+            "FileCRC": "d55e21b0",
+            "FileSize": 6151,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                1
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "UnityCRC": 1503629433,
+            "FileHash": "7dd580e0fb58b2d241d42c563065ac73",
+            "FileCRC": "8cf5a702",
+            "FileSize": 15438,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                0,
+                1,
+                5,
+                6,
+                7,
+                8,
+                10
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_scenes.bundle",
+            "UnityCRC": 2597822005,
+            "FileHash": "04ee5d2b720f88b49e5e3cd8356ca9dc",
+            "FileCRC": "b7a20054",
+            "FileSize": 24672,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                0,
+                1,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_fontassets.bundle",
+            "UnityCRC": 641567035,
+            "FileHash": "5979060190c218a70a09894bdaecd89d",
+            "FileCRC": "30580344",
+            "FileSize": 10986880,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+            "UnityCRC": 3872899968,
+            "FileHash": "b37363fb26648284be7344a8f76fd55c",
+            "FileCRC": "897b1e76",
+            "FileSize": 58120,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                5,
+                10
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_textstyle_color.bundle",
+            "UnityCRC": 4184532490,
+            "FileHash": "2471054b60ae72a23748f04b29ee9ffe",
+            "FileCRC": "f37eafc8",
+            "FileSize": 2120,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_textstyle_style.bundle",
+            "UnityCRC": 2748371236,
+            "FileHash": "4a3b11755e5a3bdcc8472aae0e118130",
+            "FileCRC": "1b2610bb",
+            "FileSize": 2153,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+            "UnityCRC": 886640453,
+            "FileHash": "b269021b9e83dea7f69f669b62345840",
+            "FileCRC": "5b7c62c4",
+            "FileSize": 7705,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_unityshaders.bundle",
+            "UnityCRC": 3730140376,
+            "FileHash": "add778961ab319080122e5273fbb7f99",
+            "FileCRC": "1802c0a8",
+            "FileSize": 184773,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}

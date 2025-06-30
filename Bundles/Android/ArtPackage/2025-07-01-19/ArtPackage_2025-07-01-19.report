@@ -1,0 +1,669 @@
+{
+    "Summary": {
+        "YooVersion": "2.3.10",
+        "UnityVersion": "6000.0.45f1",
+        "BuildDate": "7/1/2025 12:19:23 AM",
+        "BuildSeconds": 7,
+        "BuildTarget": 13,
+        "BuildPipeline": "ScriptableBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "ArtPackage",
+        "BuildPackageVersion": "2025-07-01-19",
+        "BuildPackageNote": "7/1/2025 12:19:15 AM",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": false,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "artpackage_unityshaders.bundle",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 25,
+        "MainAssetTotalCount": 9,
+        "AllBundleTotalCount": 11,
+        "AllBundleTotalSize": 11314998,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "Component_BaseButton",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+            "AssetGUID": "b6aa381d1f32829469d1a854fcc80e9a",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "MainBundleSize": 6151,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "Component_BaseToggle",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseToggle.prefab",
+            "AssetGUID": "dca121b6269f9874a9103c7d6f9556f7",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "MainBundleSize": 6151,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/clockicon.png",
+                    "AssetGUID": "c3837d00b4e435d49a188fba78d28849"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 10.png",
+                    "AssetGUID": "890313402ace3454a8348331d69f13b0"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle"
+            ]
+        },
+        {
+            "Address": "Component_BaseView",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseView.prefab",
+            "AssetGUID": "22f9ee4cfe32de542ae01444a3985740",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "MainBundleSize": 6151,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "Menu_UIMainFooter",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooter.prefab",
+            "AssetGUID": "f6e4a1387fc682743b5fe4ea3e229b87",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "MainBundleSize": 15438,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/clockicon.png",
+                    "AssetGUID": "c3837d00b4e435d49a188fba78d28849"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/Top.png",
+                    "AssetGUID": "2ad715ee8b56b8c449139e2edf9bc300"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 1.png",
+                    "AssetGUID": "2f5bd759769f5314cbed82e8a28960f9"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 10.png",
+                    "AssetGUID": "890313402ace3454a8348331d69f13b0"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 11.png",
+                    "AssetGUID": "3746b27491d49c949afcce3421370c87"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+                    "AssetGUID": "2b5a922828818bd4f9fa89b6de50e8ab"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "Menu_UIMainFooterItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+            "AssetGUID": "2b5a922828818bd4f9fa89b6de50e8ab",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "MainBundleSize": 15438,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/clockicon.png",
+                    "AssetGUID": "c3837d00b4e435d49a188fba78d28849"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 10.png",
+                    "AssetGUID": "890313402ace3454a8348331d69f13b0"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "Menu_UITimerMain",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMain.prefab",
+            "AssetGUID": "9b86cda7c9c1300478c2118887f9f672",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "MainBundleSize": 15438,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/Animation/UICommon_Item_Click_Root.controller",
+                    "AssetGUID": "39b741ebce0e637458c25f76f7b3bb8b"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/addicon.png",
+                    "AssetGUID": "909f833820e431f45b2a7a727b1d3c62"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/leftArrow.png",
+                    "AssetGUID": "081d45a50bba6cf4ebd010677a065d09"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/Top.png",
+                    "AssetGUID": "2ad715ee8b56b8c449139e2edf9bc300"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/矩形 2.png",
+                    "AssetGUID": "deb449ec07ae57a4590f3351f7dbaa14"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+                    "AssetGUID": "b6aa381d1f32829469d1a854fcc80e9a"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+                    "AssetGUID": "cff9a191711d78f4388f7b471b36771e"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontAssets/DENG.TTF",
+                    "AssetGUID": "511370bca28ce684480ae966c03eea1d"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontTMPAsstes/DENG SDF.asset",
+                    "AssetGUID": "89a55e06fe3bf26499dd640cc64cc37c"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/ContentColor.asset",
+                    "AssetGUID": "f73463b351db9c546a32cebce799a717"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/TitleColor.asset",
+                    "AssetGUID": "e5c6b48b88b02ef4e95e508c35b709d6"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Style/ThemeStyleSheet.asset",
+                    "AssetGUID": "2c37d03accd240f42a348c575c9f319e"
+                },
+                {
+                    "AssetPath": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                    "AssetGUID": "68e6db2ebdc24f95958faec2be5558d6"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+                "artpackage_share_assets_export_font_textstyle_color.bundle",
+                "artpackage_share_assets_export_font_textstyle_style.bundle",
+                "artpackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "Menu_UITimerMainTypeItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+            "AssetGUID": "cff9a191711d78f4388f7b471b36771e",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "MainBundleSize": 15438,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/Animation/UICommon_Item_Click_Root.controller",
+                    "AssetGUID": "39b741ebce0e637458c25f76f7b3bb8b"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/矩形 2.png",
+                    "AssetGUID": "deb449ec07ae57a4590f3351f7dbaa14"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontAssets/DENG.TTF",
+                    "AssetGUID": "511370bca28ce684480ae966c03eea1d"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontTMPAsstes/DENG SDF.asset",
+                    "AssetGUID": "89a55e06fe3bf26499dd640cc64cc37c"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/ContentColor.asset",
+                    "AssetGUID": "f73463b351db9c546a32cebce799a717"
+                },
+                {
+                    "AssetPath": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                    "AssetGUID": "68e6db2ebdc24f95958faec2be5558d6"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+                "artpackage_share_assets_export_font_textstyle_color.bundle",
+                "artpackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "Scenes_Home",
+            "AssetPath": "Assets/Scenes/Home.unity",
+            "AssetGUID": "df0db42cfae22dd458df2ece9bd3063c",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_scenes.bundle",
+            "MainBundleSize": 24672,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/Animation/UICommon_Item_Click_Root.controller",
+                    "AssetGUID": "39b741ebce0e637458c25f76f7b3bb8b"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/addicon.png",
+                    "AssetGUID": "909f833820e431f45b2a7a727b1d3c62"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/clockicon.png",
+                    "AssetGUID": "c3837d00b4e435d49a188fba78d28849"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/leftArrow.png",
+                    "AssetGUID": "081d45a50bba6cf4ebd010677a065d09"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/Top.png",
+                    "AssetGUID": "2ad715ee8b56b8c449139e2edf9bc300"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 1.png",
+                    "AssetGUID": "2f5bd759769f5314cbed82e8a28960f9"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 10.png",
+                    "AssetGUID": "890313402ace3454a8348331d69f13b0"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 11.png",
+                    "AssetGUID": "3746b27491d49c949afcce3421370c87"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/矩形 2.png",
+                    "AssetGUID": "deb449ec07ae57a4590f3351f7dbaa14"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+                    "AssetGUID": "b6aa381d1f32829469d1a854fcc80e9a"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooter.prefab",
+                    "AssetGUID": "f6e4a1387fc682743b5fe4ea3e229b87"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+                    "AssetGUID": "2b5a922828818bd4f9fa89b6de50e8ab"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMain.prefab",
+                    "AssetGUID": "9b86cda7c9c1300478c2118887f9f672"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+                    "AssetGUID": "cff9a191711d78f4388f7b471b36771e"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontAssets/DENG.TTF",
+                    "AssetGUID": "511370bca28ce684480ae966c03eea1d"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/FontTMPAsstes/DENG SDF.asset",
+                    "AssetGUID": "89a55e06fe3bf26499dd640cc64cc37c"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/ContentColor.asset",
+                    "AssetGUID": "f73463b351db9c546a32cebce799a717"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/TitleColor.asset",
+                    "AssetGUID": "e5c6b48b88b02ef4e95e508c35b709d6"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Style/ThemeStyleSheet.asset",
+                    "AssetGUID": "2c37d03accd240f42a348c575c9f319e"
+                },
+                {
+                    "AssetPath": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                    "AssetGUID": "68e6db2ebdc24f95958faec2be5558d6"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions",
+                    "AssetGUID": "ca9f5fa95ffab41fb9a615ab714db018"
+                }
+            ],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+                "artpackage_share_assets_export_font_textstyle_color.bundle",
+                "artpackage_share_assets_export_font_textstyle_style.bundle",
+                "artpackage_share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+                "artpackage_unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "Scenes_Launcher",
+            "AssetPath": "Assets/Scenes/Launcher.unity",
+            "AssetGUID": "15f15ab9a8cd2894fa10135f1310aa99",
+            "AssetTags": [],
+            "MainBundleName": "artpackage_assets_scenes.bundle",
+            "MainBundleSize": 24672,
+            "DependAssets": [],
+            "DependBundles": [
+                "artpackage_unityshaders.bundle"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+            "FileName": "7741df5a49681c632f12caee2dd2e9b5.bundle",
+            "FileHash": "7741df5a49681c632f12caee2dd2e9b5",
+            "FileCRC": "0ed30a23",
+            "FileSize": 9960,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/Animation/UICommon_Item_Click_Root.controller",
+                    "AssetGUID": "39b741ebce0e637458c25f76f7b3bb8b"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+            "FileName": "a9ab61f8126f71e50d8b8745f772c73b.bundle",
+            "FileHash": "a9ab61f8126f71e50d8b8745f772c73b",
+            "FileCRC": "cf6441e6",
+            "FileSize": 17026,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/addicon.png",
+                    "AssetGUID": "909f833820e431f45b2a7a727b1d3c62"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/clockicon.png",
+                    "AssetGUID": "c3837d00b4e435d49a188fba78d28849"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/leftArrow.png",
+                    "AssetGUID": "081d45a50bba6cf4ebd010677a065d09"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/Top.png",
+                    "AssetGUID": "2ad715ee8b56b8c449139e2edf9bc300"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 1.png",
+                    "AssetGUID": "2f5bd759769f5314cbed82e8a28960f9"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 10.png",
+                    "AssetGUID": "890313402ace3454a8348331d69f13b0"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/图层 11.png",
+                    "AssetGUID": "3746b27491d49c949afcce3421370c87"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Art/UITexture/矩形 2.png",
+                    "AssetGUID": "deb449ec07ae57a4590f3351f7dbaa14"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "FileName": "43e531e2c0f18d308db76c05aedb8edf.bundle",
+            "FileHash": "43e531e2c0f18d308db76c05aedb8edf",
+            "FileCRC": "d55e21b0",
+            "FileSize": 6151,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+                    "AssetGUID": "b6aa381d1f32829469d1a854fcc80e9a"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseToggle.prefab",
+                    "AssetGUID": "dca121b6269f9874a9103c7d6f9556f7"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseView.prefab",
+                    "AssetGUID": "22f9ee4cfe32de542ae01444a3985740"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "FileName": "7dd580e0fb58b2d241d42c563065ac73.bundle",
+            "FileHash": "7dd580e0fb58b2d241d42c563065ac73",
+            "FileCRC": "8cf5a702",
+            "FileSize": 15438,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+                "artpackage_share_assets_export_font_textstyle_color.bundle",
+                "artpackage_share_assets_export_font_textstyle_style.bundle",
+                "artpackage_unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooter.prefab",
+                    "AssetGUID": "f6e4a1387fc682743b5fe4ea3e229b87"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+                    "AssetGUID": "2b5a922828818bd4f9fa89b6de50e8ab"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMain.prefab",
+                    "AssetGUID": "9b86cda7c9c1300478c2118887f9f672"
+                },
+                {
+                    "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+                    "AssetGUID": "cff9a191711d78f4388f7b471b36771e"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_assets_scenes.bundle",
+            "FileName": "04ee5d2b720f88b49e5e3cd8356ca9dc.bundle",
+            "FileHash": "04ee5d2b720f88b49e5e3cd8356ca9dc",
+            "FileCRC": "b7a20054",
+            "FileSize": 24672,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "artpackage_assets_export_clockapp_ui_art_animation.bundle",
+                "artpackage_assets_export_clockapp_ui_art_uitexture.bundle",
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+                "artpackage_share_assets_export_font_textstyle_color.bundle",
+                "artpackage_share_assets_export_font_textstyle_style.bundle",
+                "artpackage_share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+                "artpackage_unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Scenes/Home.unity",
+                    "AssetGUID": "df0db42cfae22dd458df2ece9bd3063c"
+                },
+                {
+                    "AssetPath": "Assets/Scenes/Launcher.unity",
+                    "AssetGUID": "15f15ab9a8cd2894fa10135f1310aa99"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_fontassets.bundle",
+            "FileName": "5979060190c218a70a09894bdaecd89d.bundle",
+            "FileHash": "5979060190c218a70a09894bdaecd89d",
+            "FileCRC": "30580344",
+            "FileSize": 10986880,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/Font/FontAssets/DENG.TTF",
+                    "AssetGUID": "511370bca28ce684480ae966c03eea1d"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_fonttmpasstes.bundle",
+            "FileName": "b37363fb26648284be7344a8f76fd55c.bundle",
+            "FileHash": "b37363fb26648284be7344a8f76fd55c",
+            "FileCRC": "897b1e76",
+            "FileSize": 58120,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "artpackage_share_assets_export_font_fontassets.bundle",
+                "artpackage_unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/Font/FontTMPAsstes/DENG SDF.asset",
+                    "AssetGUID": "89a55e06fe3bf26499dd640cc64cc37c"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_textstyle_color.bundle",
+            "FileName": "2471054b60ae72a23748f04b29ee9ffe.bundle",
+            "FileHash": "2471054b60ae72a23748f04b29ee9ffe",
+            "FileCRC": "f37eafc8",
+            "FileSize": 2120,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/ContentColor.asset",
+                    "AssetGUID": "f73463b351db9c546a32cebce799a717"
+                },
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Color/TitleColor.asset",
+                    "AssetGUID": "e5c6b48b88b02ef4e95e508c35b709d6"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_assets_export_font_textstyle_style.bundle",
+            "FileName": "4a3b11755e5a3bdcc8472aae0e118130.bundle",
+            "FileHash": "4a3b11755e5a3bdcc8472aae0e118130",
+            "FileCRC": "1b2610bb",
+            "FileSize": 2153,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Export/Font/TextStyle/Style/ThemeStyleSheet.asset",
+                    "AssetGUID": "2c37d03accd240f42a348c575c9f319e"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_share_packages_com_unity_inputsystem_inputsystem_plugins_playerinput.bundle",
+            "FileName": "b269021b9e83dea7f69f669b62345840.bundle",
+            "FileHash": "b269021b9e83dea7f69f669b62345840",
+            "FileCRC": "5b7c62c4",
+            "FileSize": 7705,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_scenes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions",
+                    "AssetGUID": "ca9f5fa95ffab41fb9a615ab714db018"
+                }
+            ]
+        },
+        {
+            "BundleName": "artpackage_unityshaders.bundle",
+            "FileName": "add778961ab319080122e5273fbb7f99.bundle",
+            "FileHash": "add778961ab319080122e5273fbb7f99",
+            "FileCRC": "1802c0a8",
+            "FileSize": 184773,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+                "artpackage_assets_scenes.bundle",
+                "artpackage_share_assets_export_font_fonttmpasstes.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+                    "AssetGUID": "68e6db2ebdc24f95958faec2be5558d6"
+                }
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

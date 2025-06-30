@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9dbb05c1ba537aca","type":"file","file":"Image/Pasted image 20250628153607.png","x":-360,"y":-200,"width":229,"height":400},
+		{"id":"0efe4848636c78d5","type":"text","text":"# 首页\n\n顶部title做多语言\n加号按钮点击后添加分类\n添加后会在分类中显示分类\n点击分类立即跳转到计时界面\n\n灰色item会显示前三次统计过的分类\n如果没有就不显示\n点击灰色item陶砖到计时页面\n","x":-115,"y":-200,"width":475,"height":420},
+		{"id":"2ce45f66713cd0de","type":"file","file":"Image/Pasted image 20250628154110.png","x":-363,"y":240,"width":232,"height":400},
+		{"id":"cefb54bc071e684d","type":"text","text":"# 计时页面\n进入页面后自动开始计时\n点击暂停后，暂停计时，暂停切换成继续按钮\n点击继续后，继续计时\n点击结束后，直接回到主页面\n","x":-115,"y":240,"width":495,"height":400},
+		{"id":"4e3aa6c279270ba1","type":"file","file":"Image/Pasted image 20250628155013.png","x":-361,"y":680,"width":228,"height":400},
+		{"id":"a51e43bb47cd3671","type":"text","text":"# 累计页面\n\n累计页面主要显示创建分类累计运行的时间总和\n","x":-114,"y":680,"width":494,"height":400}
+	],
+	"edges":[]
+}

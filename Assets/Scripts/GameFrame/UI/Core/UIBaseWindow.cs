@@ -19,9 +19,10 @@ namespace UIFrame.Core
         Static,
         Dynamic
     }
-
+    
     public class UIBaseWindow : MonoBehaviour
     {
+        public bool EnableDefultStartAni = true;
         public WindowOpenType openType = WindowOpenType.Alpha;
         public WindowType windowType = WindowType.Dynamic;
         protected float _alphaSpeed = 7f;
@@ -53,6 +54,16 @@ namespace UIFrame.Core
 
         protected virtual void Update()
         {
+            WindowDefultAni();
+        }
+
+        private void WindowDefultAni()
+        {
+            if (!EnableDefultStartAni)
+            {
+                return;
+            }
+            
             if (!_isOpen && _canvasGroup.alpha < 1 && _toOpen)
             {
                 _canvasGroup.alpha += Time.deltaTime * _alphaSpeed;

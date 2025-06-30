@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using UIFrame.Core;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
+using YooAsset;
 
 namespace UIFrame.Manager
 {
@@ -29,7 +31,7 @@ namespace UIFrame.Manager
                 return null;
             }
 
-            GameObject windowPrefab = LoadPrefab($"UIFrameExample/Prefabs/UI/{windowName}");
+            GameObject windowPrefab = LoadPrefab($"{windowName}");
             var windowScript = windowPrefab.GetComponent<T>();
             var parent = windowScript.windowType == WindowType.Static ? _staticCanvas : _dynamicCanvas;
             GameObject window = GameObject.Instantiate(windowPrefab, parent);
@@ -72,7 +74,7 @@ namespace UIFrame.Manager
         private GameObject LoadPrefab(string path)
         {
             Debug.Log($"{path}");
-            return Resources.Load<GameObject>(path);
+            return YooAssets.LoadAssetSync<GameObject>(path).AssetObject.GameObject();
         }
     }
 }

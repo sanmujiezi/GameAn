@@ -1,0 +1,110 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 1,
+    "BuildPipeline": "EditorSimulateBuildPipeline",
+    "PackageName": "ArtPackage",
+    "PackageVersion": "Simulate",
+    "PackageNote": "7/1/2025 1:30:40 AM",
+    "AssetList": [
+        {
+            "Address": "BaseButton",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseButton.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "BaseToggle",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseToggle.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "BaseView",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Component/BaseView.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UIMainFooter",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooter.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UIMainFooterItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UIMainFooterItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UITimerMain",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMain.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UITimerMainTypeItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Scenes_Launcher",
+            "AssetPath": "Assets/Scenes/Launcher.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_component.bundle",
+            "UnityCRC": 0,
+            "FileHash": "454557cb0a04c1620280184aa88b902b",
+            "FileCRC": "00000000",
+            "FileSize": 20154,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_assets_export_clockapp_ui_code_prefabs_menu.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c3c9fc8da962d0a5797c3a81d080a281",
+            "FileCRC": "00000000",
+            "FileSize": 96836,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "artpackage_assets_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "1801a05c73d886beff4082784831e43e",
+            "FileCRC": "00000000",
+            "FileSize": 17062,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}

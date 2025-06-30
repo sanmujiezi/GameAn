@@ -1,0 +1,33 @@
+﻿2025-07-01 00:19:15.404 [INFO] Begin to build package : ArtPackage by ScriptableBuildPipeline
+2025-07-01 00:19:15.404 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2025-07-01 00:19:15.407 [INFO] TaskPrepare It takes 0 seconds in total
+2025-07-01 00:19:15.407 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2025-07-01 00:19:15.826 [INFO] TaskGetBuildMap It takes 0 seconds in total
+2025-07-01 00:19:15.826 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
+2025-07-01 00:19:23.085 [INFO] UnityEngine build success!
+2025-07-01 00:19:23.086 [INFO] TaskBuilding It takes 7 seconds in total
+2025-07-01 00:19:23.086 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
+2025-07-01 00:19:23.088 [INFO] Build results verify success!
+2025-07-01 00:19:23.088 [INFO] TaskVerifyBuildResult It takes 0 seconds in total
+2025-07-01 00:19:23.088 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
+2025-07-01 00:19:23.089 [INFO] TaskEncryption It takes 0 seconds in total
+2025-07-01 00:19:23.089 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
+2025-07-01 00:19:23.155 [INFO] TaskUpdateBundleInfo It takes 0 seconds in total
+2025-07-01 00:19:23.155 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
+2025-07-01 00:19:23.163 [INFO] Create package manifest file: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19/ArtPackage_2025-07-01-19.json
+2025-07-01 00:19:23.174 [INFO] Create package manifest file: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19/ArtPackage_2025-07-01-19.bytes
+2025-07-01 00:19:23.183 [INFO] Create package manifest hash file: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19/ArtPackage_2025-07-01-19.hash
+2025-07-01 00:19:23.184 [INFO] Create package manifest version file: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19/ArtPackage.version
+2025-07-01 00:19:23.184 [INFO] TaskCreateManifest It takes 0 seconds in total
+2025-07-01 00:19:23.184 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
+2025-07-01 00:19:23.190 [INFO] Create build report file: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19/ArtPackage_2025-07-01-19.report
+2025-07-01 00:19:23.190 [INFO] TaskCreateReport It takes 0 seconds in total
+2025-07-01 00:19:23.192 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
+2025-07-01 00:19:23.192 [INFO] Start making patch package: E:/UnityProject/GameTest0607/Bundles/Android/ArtPackage/2025-07-01-19
+2025-07-01 00:19:23.208 [INFO] TaskCreatePackage It takes 0 seconds in total
+2025-07-01 00:19:23.208 [INFO] --------------------------------------------->TaskCopyBuildinFiles<--------------------------------------------
+2025-07-01 00:19:23.209 [INFO] TaskCopyBuildinFiles It takes 0 seconds in total
+2025-07-01 00:19:23.209 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
+2025-07-01 00:19:23.209 [INFO] TaskCreateCatalog It takes 0 seconds in total
+2025-07-01 00:19:23.209 [INFO] Total build process time: 7 seconds
+2025-07-01 00:19:23.209 [INFO] Resource pipeline build success
