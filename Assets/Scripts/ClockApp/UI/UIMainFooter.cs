@@ -1,6 +1,7 @@
 ﻿using ClockApp.UI.Event;
 using UIFrame.Core;
 using UIFrame.Event;
+using UIFrame.Manager;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,16 +22,15 @@ namespace ClockApp.UI
         {
             set
             {
+                _preSelected = _curSelected;
+                
                 if (_preSelected != null)
                 {
                     _preSelected.SetSelectState(false);
                 }
 
-                _preSelected = _curSelected;
                 _curSelected = value;
                 _curSelected.SetSelectState(true);
-                
-                SendChangeEvent(_curSelected);
             }
             get { return _curSelected; }
         }
@@ -42,30 +42,32 @@ namespace ClockApp.UI
             _historyButton = new UIDevDefine.DevToggleButton(HistoryButton.gameObject);
             ClockButton.onClick.AddListener(OnClockButtonClick);
             HistoryButton.onClick.AddListener(OnHistoryButtonClick);
+            
+            UIEventManager.Instance.Subscribe<UIMainFooterChangeEvent>(SendChangeEvent);
         }
 
 
         private void OnClockButtonClick()
         {
-            CurSelected = _clockButton;
-            Debug.Log("ClockButtonClick");
+            UIEventManager.Instance.Publish(new UIMainFooterChangeEvent(){Type = MainFooterType.Clock});
+            Debug.Log($"ClockButtonClick {_curSelected == _clockButton}");
         }
 
         private void OnHistoryButtonClick()
         {
-            CurSelected = _historyButton;
-            Debug.Log("HistoryButtonClick");
-        }
+            UIEventManager.Instance.Publish(new UIMainFooterChangeEvent(){Type = MainFooterType.History});
+            Debug.Log($"ClockButtonClick {_curSelected == _clockButton}");
+        } 
 
-        private void SendChangeEvent(UIDevDefine.DevToggleButton curenToggleButton)
+        private void SendChangeEvent(UIMainFooterChangeEvent message)
         {
-            if (curenToggleButton == _clockButton)
+            if (message.Type == MainFooterType.Clock)
             {
-                UIEventManager.Instance.Publish(new UIMainFooterChangeEvent{Type = MainFooterType.Clock});
+                CurSelected = _clockButton;
             }
-            else if (curenToggleButton == _historyButton)
+            else if (message.Type == MainFooterType.History)
             {
-                UIEventManager.Instance.Publish(new UIMainFooterChangeEvent{Type = MainFooterType.History});
+                CurSelected = _historyButton;
             }
         }
     }

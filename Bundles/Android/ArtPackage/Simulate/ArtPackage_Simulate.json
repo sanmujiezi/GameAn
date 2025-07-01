@@ -8,7 +8,7 @@
     "BuildPipeline": "EditorSimulateBuildPipeline",
     "PackageName": "ArtPackage",
     "PackageVersion": "Simulate",
-    "PackageNote": "7/1/2025 1:30:40 AM",
+    "PackageNote": "7/2/2025 12:55:25 AM",
     "AssetList": [
         {
             "Address": "BaseButton",
@@ -59,6 +59,14 @@
             "DependBundleIDs": []
         },
         {
+            "Address": "UITimerMainHistroyItem",
+            "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainHistroyItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
             "Address": "UITimerMainTypeItem",
             "AssetPath": "Assets/Export/ClockApp/UI/Code/Prefabs/Menu/UITimerMainTypeItem.prefab",
             "AssetGUID": "",
@@ -81,7 +89,7 @@
             "UnityCRC": 0,
             "FileHash": "454557cb0a04c1620280184aa88b902b",
             "FileCRC": "00000000",
-            "FileSize": 20154,
+            "FileSize": 22760,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -91,7 +99,7 @@
             "UnityCRC": 0,
             "FileHash": "c3c9fc8da962d0a5797c3a81d080a281",
             "FileCRC": "00000000",
-            "FileSize": 96836,
+            "FileSize": 146887,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []
@@ -101,7 +109,7 @@
             "UnityCRC": 0,
             "FileHash": "1801a05c73d886beff4082784831e43e",
             "FileCRC": "00000000",
-            "FileSize": 17062,
+            "FileSize": 17063,
             "Encrypted": false,
             "Tags": [],
             "DependBundleIDs": []

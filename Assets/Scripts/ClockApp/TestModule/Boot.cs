@@ -36,7 +36,7 @@ public class Boot : MonoBehaviour
 
         // 加载更新页面
         var go = Resources.Load<GameObject>("PatchWindow");
-        GameObject.Instantiate(go);
+        var pathWindow = GameObject.Instantiate(go);
 
         // 开始补丁更新流程
         var operation = new PatchOperation(PackageName, PlayMode);
@@ -49,7 +49,8 @@ public class Boot : MonoBehaviour
 
         // 加载主页面主页面场景
         UIEventManager.Instance.Publish(new UIMainFooterChangeEvent(){Type = MainFooterType.Clock});
-        //UIEventManager.Instance.Publish(new UICloseLoadingEvent());
-        go.gameObject.SetActive(false);
+        UIEventManager.Instance.Publish(new UIStartAppEvent());
+        UIEventManager.Instance.Publish(new LoadingDataEvent());
+        pathWindow.gameObject.SetActive(false);
     }
 }
